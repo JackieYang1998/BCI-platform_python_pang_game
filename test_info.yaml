@@ -1,0 +1,18 @@
+Subject         : 'S1'
+TestMode        : '1D'
+ChannelPicks    : [8,9,10,14,15,16,17,18,22,23]
+
+n_trials        : 40
+TestDate        : '20220513'
+TestID          : '04'
+TestIDlist      : ["01","02","03","04"]
+# , "04"#, "05"]
+
+online_n_trials : 4
+OnlineTestDate  : '20220512'
+OnlineTestID    : '01'
+
+fs              : 1000  
+WinSize         : 3000                     # 3 seconds signal when fs = 1000Hz
+high_pass       : 7.                       # high frequency in high pass filter
+low_pass        : 35.                      # low frequency in low pass filter 
